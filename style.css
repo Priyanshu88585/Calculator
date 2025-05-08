@@ -1,0 +1,64 @@
+* {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.calculator {
+    width: 360px;
+    height: 500px;
+    padding: 40px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#inputBox {
+    width: 95%;
+    height: 100px;
+    font-size: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 5px;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#keyboard {
+    width: 360px;
+    height: 360px;
+    padding: 5px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+}
+
+#keyboard>div {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 900;
+    font-size: 26px;
+    border-radius: 15px;
+}
+
+#keyboard>div:hover {
+    cursor: pointer;
+    background-color: rgb(125, 172, 192)
+}
+
+#blk {
+    background-color: black;
+    color: rgb(246, 244, 244);
+}
+
+#rd {
+    background-color: rgb(168, 206, 172)(0, 255, 26);
+    color: rgb(242, 57, 57);
+}
